@@ -33,9 +33,9 @@
                 
                 <div class="contenedor-boton">
                     <ul>
-                        <li class="boton"><a href="index.html">Inicio</a></li>
-                        <li class="boton"><a href="index.html">Mis datos</a></li>
-                        <li class="boton"><a href="index.html">Contacto</a></li>
+                        <!--<li class="boton"><a href="#acerca">Inicio</a></li>-->
+                        <li class="boton"><a href="#data">Mis datos</a></li>
+                        <li class="boton"><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,32 +45,60 @@
 
     </header>
             
-    
-
 
     <img class="banner" src="banner/mantenimiento_detalle.jpg"imagen de una red de computadoras ">
 
-        <main>
+    <main>
 
-            <div class="main-caja">
+        <div class="main-caja">
 
-                <section>
+            <section>
 
-                    <h1 class="titulo-principal">Acerca de mi</h1>
+                <h1 id="acerca" class="titulo-principal">Acerca de mi</h1>
 
-                    <p class="text">
-                        he desarrollado toda mi carrera dedicado al mundo de la ingeniería de sistemas. Mi primera experiencia la tuve de la mano de la compañía CGI como ingeniero de sistemas junior. Posteriormente comencé una nueva etapa en la empresa Aertec, también como ingeniero de sistemas. El último puesto que ocupé fue en AT4 desarrollando tareas específicas dentro del área de ingeniería de sistemas. Hablo inglés a la perfección y domino diferentes lenguajes de programación. Tengo capacidad para trabajar en grupo y mis habilidades matemáticas son excelentes.
-                    </p>  
+                <p class="text" >
+                    He desarrollado toda mi carrera dedicado al mundo de la ingeniería de sistemas. Mi primera experiencia la tuve de la mano de la compañía CGI como ingeniero de sistemas junior. Posteriormente comencé una nueva etapa en la empresa Aertec, también como ingeniero de sistemas. El último puesto que ocupé fue en AT4 desarrollando tareas específicas dentro del área de ingeniería de sistemas. Hablo inglés a la perfección y domino diferentes lenguajes de programación. Tengo capacidad para trabajar en grupo y mis habilidades matemáticas son excelentes.
+                </p>  
                     
-                </section>
+            </section>
 
-            </div>
-            
-        </main>
+        </div>
 
-        <footer>
-           <p class="text-footer">© Copyright Diego Gauna - 2023</p>
-        </footer>
+        <div class="caja-datos">
+            <section>
+
+                <h2 id="data">mis datos</h2>
+                    
+                <ul class="lista-datos">
+                    <li id="nom">Nombre:  </li>
+                    <li id="ape">Apellido:  </li>
+                    <li id="age">Edad:  </li>
+                    <li id="country">Pais:       </li>
+                    <li id="city">Ciudad:  </li>
+                    <li id="state">Estado:  </li>
+                </ul>
+
+            </section>
+        </div>
+        
+        <div class="caja-contacto">
+            <section>
+
+                <h2 id="contacto">contactos</h2>
+
+                <ul class="lista-contacto">
+                    <li id="email">Email: </li>
+                    <li id="telefono">Telefono: </li>
+                    <li id="cell">Celular: </li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="text-footer">© Copyright Diego Gauna - 2023</p>
+    </footer>
 
     <script src="./js/index.js"></script>
 </body>

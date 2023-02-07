@@ -82,10 +82,9 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-
-.titulo-principal, #data, #contacto{ /*se suma titulos de datos y contactos para tener mismo formato*/
+.titulo-principal{
     text-transform: uppercase;
-    margin: 110px 0 25px;
+   margin: 30px 0 25px;
     font-size: 2em;
     font-weight: bolder;
 }
@@ -108,27 +107,4 @@ footer{
     color: #ffffff;
     font-size: 13px;   
    
-}
-
-/*-----mis datos y contacto------*/
-
-.caja-datos, .caja-contacto{
-    width: 1080px;
-    margin: 0 auto;
-}
-
-#data, #contacto{
-    text-align: center;
-    margin: 3em 0 2em;
-}
-.lista-datos, .lista-contacto{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 22px;
-    margin-left: 30px;
-    line-height: 35px;
-}
-
-.lista-contacto{
-    margin-bottom: 3em;
 }
