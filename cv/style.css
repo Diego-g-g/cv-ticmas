@@ -39,19 +39,19 @@ body{
     display: inline-block;
     position: absolute;
     top: 130px;
-    right: -170px;
+    right: -65px;
 }
 
 .contenedor-boton li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
 }
 
 .boton a, .volver a{
     
     text-transform: uppercase;
     color: #000000;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bolder;
     transition: 150ms;
     text-decoration: none;
