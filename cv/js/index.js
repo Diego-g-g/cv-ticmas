@@ -23,7 +23,7 @@ const cell = user["results"][0]["cell"];
 /*nombre y apellido en foto*/
 
 var nombreCompleto = nombre+" "+apellido;
-console.log(nombreCompleto);
+/*console.log(nombreCompleto);*/
 document.getElementById("nomApe").innerHTML += nombreCompleto;
 
 /*carga de datos*/
