@@ -161,12 +161,25 @@ body{
     margin: 3em 0 4em;
 }
 
-.volver a{
+.volver button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bolder;
     padding: 5px;
     border-style: solid;
     border-color: #000000;
     border-width: 2px;
+    border-radius: 60px;
+    transition: 150ms;
+    
 }
+
+.volver button:hover{
+    background: #A4A4A4;
+    color: #ffffff;
+}
+
 /*-----footer------*/
 
 footer{

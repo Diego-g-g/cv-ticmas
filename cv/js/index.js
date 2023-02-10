@@ -45,6 +45,18 @@ var foto = document.querySelector('#imagen');
 foto.appendChild(img);
 
 
+
+
+/*funcion para boton volver*/
+
+const btnVolver = document.querySelector('button');
+
+btnVolver.addEventListener("click", function(){
+
+    document.location.href = "#boton-volver";
+})
+
+
 }
 window.addEventListener("load" , function () {
     randomUsers();
